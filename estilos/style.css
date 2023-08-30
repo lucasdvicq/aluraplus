@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@100;400;600&family=Rajdhani&family=Ubuntu+Condensed&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C; 
+    --fonte-principal: 'Inter';
+    --botao-cinza-efeito: #364857
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco-principal);
+    background-color: var(--cor-de-fundo)   
+}
+
+.principal {
+    background-image: url(imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    display: block;
+    color: var(--branco-principal);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 15em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+    font-size: 15px;
+}
+
+.terciario {
+    align-items: center;
+    margin: 0 0 0 10em;
+}
+
+.terciario__img {
+    width: 60%;
+}
+
+.container__duvidas {
+    color: var(--cinza-secundario);
+    margin-bottom: 2em;
+}
+
+.secundario__botao {
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.quaternario__img {
+    width: 80%;
+}
+
+.quaternario {
+    align-items: center;
+    margin: 0 25em;
+}
+
+.container__dicas {
+    font-size: 36px;
+
+}
+
+.descricao__dicas {
+    color: var(--cinza-secundario);
+    margin-top: 0.5em;
+    font-size: 15px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulos {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-cinza-efeito);
+}
+
+.botao_secundario:hover {
+    background-color: var(--botao-cinza-efeito);
+}
+
+.secundario__botao:hover {
+    background-color: var(--botao-cinza-efeito);
+}
